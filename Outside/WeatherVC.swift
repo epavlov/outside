@@ -22,13 +22,33 @@ class WeatherVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet weak var tableView: UITableView!
     
+    var currentWeather = CurrentWeather()
+    var forecastWeeather = ForecastWeather(weatherDict: [:])
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         tableView.delegate = self
         tableView.dataSource = self
         
-        print(CURRENT_WEATHER_URL)
+        currentWeather.downloadWeatherDetails {
+            // Will be called when data finished downloading
+            self.updateCuurentWeatherUI()
+        }
+        
+        forecastWeeather.donwloadForecastWeatherData { 
+            print("forecast data completed downloading")
+            print(FORECAST_WEATHER_URL)
+            print(self.forecastWeeather.forecasts)
+        }
+    }
+    
+    func updateCuurentWeatherUI() {
+        dateLabel.text = currentWeather.date
+        currentTempLabel.text = "\(currentWeather.currentTemp)"
+        currentWeatherTypeLabel.text = currentWeather.weatherType
+        locationLabel.text = currentWeather.cityName
+        currentWeatherImage.image = UIImage(named: currentWeather.weatherType)
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
