@@ -36,16 +36,19 @@ class WeatherVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
             self.updateCuurentWeatherUI()
         }
         
-        forecastWeeather.donwloadForecastWeatherData { 
-            print("forecast data completed downloading")
+        forecastWeeather.donwloadForecastWeatherData {
             print(FORECAST_WEATHER_URL)
-            print(self.forecastWeeather.forecasts)
+            // Remove today day from array
+            self.forecastWeeather.forecasts.remove(at: 0)
+            
+            // Update UI after forecast data downloaded
+            self.tableView.reloadData()
         }
     }
     
     func updateCuurentWeatherUI() {
         dateLabel.text = currentWeather.date
-        currentTempLabel.text = "\(currentWeather.currentTemp)"
+        currentTempLabel.text = "\(currentWeather.currentTemp)°"
         currentWeatherTypeLabel.text = currentWeather.weatherType
         locationLabel.text = currentWeather.cityName
         currentWeatherImage.image = UIImage(named: currentWeather.weatherType)
@@ -56,16 +59,17 @@ class WeatherVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 6
+        return forecastWeeather.forecasts.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "weatherCell", for: indexPath)
-        return cell
-    }
-    
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        // todo
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "weatherCell", for: indexPath) as? WeatherCell {
+            let forecast = forecastWeeather.forecasts[indexPath.row]
+            cell.configureCell(forecast: forecast)
+            return cell
+        } else {
+            return WeatherCell()
+        }
     }
 }
 

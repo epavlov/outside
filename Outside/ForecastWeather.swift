@@ -69,13 +69,13 @@ class ForecastWeather {
         self.lowTemp = 0.0
         self.highTemp = 0.0
         
-        if let temp = weatherDict["main"] as? Dictionary<String, AnyObject> {
-            if let min = temp["temp_min"] as? Double {
+        if let temp = weatherDict["temp"] as? Dictionary<String, AnyObject> {
+            if let min = temp["min"] as? Double {
                 
                 self._lowTemp = TemperatureConverter.fromKelvinToFahrenheit(kelvinValue: min)
             }
             
-            if let max = temp["temp_max"] as? Double {
+            if let max = temp["max"] as? Double {
                 self._highTemp = TemperatureConverter.fromKelvinToFahrenheit(kelvinValue: max)
             }
         }
