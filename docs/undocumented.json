@@ -1,0 +1,467 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/AppDelegate.swift",
+      "line": 12,
+      "symbol": "AppDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/AppDelegate.swift",
+      "line": 14,
+      "symbol": "AppDelegate.window",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/AppDelegate.swift",
+      "line": 17,
+      "symbol": "AppDelegate.application(_:didFinishLaunchingWithOptions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/AppDelegate.swift",
+      "line": 22,
+      "symbol": "AppDelegate.applicationWillResignActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/AppDelegate.swift",
+      "line": 27,
+      "symbol": "AppDelegate.applicationDidEnterBackground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/AppDelegate.swift",
+      "line": 32,
+      "symbol": "AppDelegate.applicationWillEnterForeground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/AppDelegate.swift",
+      "line": 36,
+      "symbol": "AppDelegate.applicationDidBecomeActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/AppDelegate.swift",
+      "line": 40,
+      "symbol": "AppDelegate.applicationWillTerminate(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/Constants.swift",
+      "line": 11,
+      "symbol": "BASE_URL_CURRENT",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/Constants.swift",
+      "line": 12,
+      "symbol": "BASE_URL_FORECAST",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/Constants.swift",
+      "line": 13,
+      "symbol": "LATITUDE",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/Constants.swift",
+      "line": 14,
+      "symbol": "LONGITUDE",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/Constants.swift",
+      "line": 15,
+      "symbol": "API_KEY",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/Constants.swift",
+      "line": 17,
+      "symbol": "CURRENT_WEATHER_URL",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/Constants.swift",
+      "line": 19,
+      "symbol": "FORECAST_WEATHER_URL",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/CurrentWeather.swift",
+      "line": 14,
+      "symbol": "CurrentWeather._cityName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/CurrentWeather.swift",
+      "line": 15,
+      "symbol": "CurrentWeather._date",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/CurrentWeather.swift",
+      "line": 16,
+      "symbol": "CurrentWeather._weatherType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/CurrentWeather.swift",
+      "line": 17,
+      "symbol": "CurrentWeather._currentTemp",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/CurrentWeather.swift",
+      "line": 19,
+      "symbol": "CurrentWeather.cityName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/CurrentWeather.swift",
+      "line": 23,
+      "symbol": "CurrentWeather.date",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/CurrentWeather.swift",
+      "line": 32,
+      "symbol": "CurrentWeather.weatherType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/CurrentWeather.swift",
+      "line": 36,
+      "symbol": "CurrentWeather.currentTemp",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/CurrentWeather.swift",
+      "line": 41,
+      "symbol": "CurrentWeather.downloadWeatherDetails(completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/ForecastWeather.swift",
+      "line": 14,
+      "symbol": "ForecastWeather._date",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/ForecastWeather.swift",
+      "line": 15,
+      "symbol": "ForecastWeather._weatherType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/ForecastWeather.swift",
+      "line": 16,
+      "symbol": "ForecastWeather._highTemp",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/ForecastWeather.swift",
+      "line": 17,
+      "symbol": "ForecastWeather._lowTemp",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/ForecastWeather.swift",
+      "line": 19,
+      "symbol": "ForecastWeather._forecasts",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/ForecastWeather.swift",
+      "line": 21,
+      "symbol": "ForecastWeather.date",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/ForecastWeather.swift",
+      "line": 30,
+      "symbol": "ForecastWeather.weatherType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/ForecastWeather.swift",
+      "line": 39,
+      "symbol": "ForecastWeather.highTemp",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/ForecastWeather.swift",
+      "line": 48,
+      "symbol": "ForecastWeather.lowTemp",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/ForecastWeather.swift",
+      "line": 57,
+      "symbol": "ForecastWeather.forecasts",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/ForecastWeather.swift",
+      "line": 66,
+      "symbol": "ForecastWeather.init(weatherDict:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/ForecastWeather.swift",
+      "line": 102,
+      "symbol": "ForecastWeather.donwloadForecastWeatherData(completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/Location.swift",
+      "line": 14,
+      "symbol": "Location.sharedInstance",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/Location.swift",
+      "line": 16,
+      "symbol": "Location.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/Location.swift",
+      "line": 18,
+      "symbol": "Location.latitude",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/Location.swift",
+      "line": 19,
+      "symbol": "Location.longitude",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/LocationManager.swift",
+      "line": 14,
+      "symbol": "LocationManager.locationManager",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/LocationManager.swift",
+      "line": 15,
+      "symbol": "LocationManager.currentLocation",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/LocationManager.swift",
+      "line": 17,
+      "symbol": "LocationManager.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/TemperatureConverter.swift",
+      "line": 11,
+      "symbol": "TemperatureConverter",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/WeatherCell.swift",
+      "line": 11,
+      "symbol": "WeatherCell",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/WeatherCell.swift",
+      "line": 13,
+      "symbol": "WeatherCell.weatherIcon",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/WeatherCell.swift",
+      "line": 14,
+      "symbol": "WeatherCell.dayLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/WeatherCell.swift",
+      "line": 15,
+      "symbol": "WeatherCell.weatherTypeLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/WeatherCell.swift",
+      "line": 16,
+      "symbol": "WeatherCell.highTempLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/WeatherCell.swift",
+      "line": 17,
+      "symbol": "WeatherCell.lowTempLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/WeatherVC.swift",
+      "line": 11,
+      "symbol": "WeatherVC",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/WeatherVC.swift",
+      "line": 13,
+      "symbol": "WeatherVC.dateLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/WeatherVC.swift",
+      "line": 15,
+      "symbol": "WeatherVC.currentTempLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/WeatherVC.swift",
+      "line": 17,
+      "symbol": "WeatherVC.locationLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/WeatherVC.swift",
+      "line": 19,
+      "symbol": "WeatherVC.currentWeatherImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/WeatherVC.swift",
+      "line": 21,
+      "symbol": "WeatherVC.currentWeatherTypeLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/WeatherVC.swift",
+      "line": 23,
+      "symbol": "WeatherVC.tableView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/WeatherVC.swift",
+      "line": 25,
+      "symbol": "WeatherVC.currentWeather",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/WeatherVC.swift",
+      "line": 26,
+      "symbol": "WeatherVC.forecastWeeather",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/WeatherVC.swift",
+      "line": 28,
+      "symbol": "WeatherVC.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/WeatherVC.swift",
+      "line": 36,
+      "symbol": "WeatherVC.viewDidAppear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/WeatherVC.swift",
+      "line": 46,
+      "symbol": "WeatherVC.loadWeatherData()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/WeatherVC.swift",
+      "line": 62,
+      "symbol": "WeatherVC.updateCuurentWeatherUI()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/WeatherVC.swift",
+      "line": 70,
+      "symbol": "WeatherVC.numberOfSections(in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/WeatherVC.swift",
+      "line": 74,
+      "symbol": "WeatherVC.tableView(_:numberOfRowsInSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside/Outside/WeatherVC.swift",
+      "line": 78,
+      "symbol": "WeatherVC.tableView(_:cellForRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/eugenepavlov/Documents/Swift Dev/Projects/Udemy iOS 10 Swift 3/Section 6/Outside"
+}

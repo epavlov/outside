@@ -6,6 +6,8 @@ Application get’s user device location coordinates and requests weather inform
 
 JSON requests being handled with HTTP networking library <a href=“https://github.com/Alamofire/Alamofire”>Alamofire</a>.
 
+<a href=“docs/index.html”>Documentation</a>
+
 Written in Swift 3 and xCode Version 8.2.1 (8C1002)
 
 ![alt tag](https://raw.githubusercontent.com/epavlov/outside/master/screenshot.png)
