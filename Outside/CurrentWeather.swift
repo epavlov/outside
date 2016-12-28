@@ -9,6 +9,7 @@
 import Foundation
 import Alamofire
 
+/// Loads and manages todays weather
 class CurrentWeather {
     var _cityName: String!
     var _date: String!
@@ -39,8 +40,7 @@ class CurrentWeather {
     
     func downloadWeatherDetails(completion: @escaping () -> Void) {
         // Alamofire donwload
-        let currentWeatherURL = URL(string: CURRENT_WEATHER_URL)!
-        Alamofire.request(currentWeatherURL).responseJSON { response in
+        Alamofire.request(CURRENT_WEATHER_URL).responseJSON { response in
 
             //print("Results:")
             //print(response.request!)  // original URL request

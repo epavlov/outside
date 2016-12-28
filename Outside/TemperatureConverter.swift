@@ -11,11 +11,11 @@ import Foundation
 class TemperatureConverter {
     
     /**
-     Function to Takes Kelvin temperature and convert it to Fahrenheit
+     Function to take Kelvin temperature and convert it to Fahrenheit
      
-     - parameter kelvinValue: Double value in kelvin
+     - parameter kelvinValue: Double value in that indicates temperature in Kelvin
      
-     - returns: Double value in fahrenheit
+     - returns: Double value that will indicate temperature in Fahrenheit
      */
     public static func fromKelvinToFahrenheit(kelvinValue: Double) -> Double {
         let kelvinToFarenheitPreDevision = (kelvinValue * (9/5) - 459.67)

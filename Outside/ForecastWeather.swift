@@ -9,6 +9,7 @@
 import UIKit
 import Alamofire
 
+/// Loads and manages forecast weather
 class ForecastWeather {
     private var _date: String!
     private var _weatherType: String!
@@ -83,6 +84,7 @@ class ForecastWeather {
         if let weather = weatherDict["weather"] as? [Dictionary<String, AnyObject>] {
             if let main = weather[0]["main"] as? String {
                 self._weatherType = main
+                print("Type: \(main)")
             }
         }
         
@@ -99,8 +101,7 @@ class ForecastWeather {
     
     func donwloadForecastWeatherData(completion: @escaping () -> Void) {
         // Alamofire donwload
-        let forecastWeatherURL = URL(string: FORECAST_WEATHER_URL)!
-        Alamofire.request(forecastWeatherURL).responseJSON { response in
+        Alamofire.request(FORECAST_WEATHER_URL).responseJSON { response in
             
             //print("Results:")
             //print(response.request!)  // original URL request

@@ -31,6 +31,19 @@ class WeatherVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         tableView.delegate = self
         tableView.dataSource = self
         
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        let locationManager = LocationManager()
+        locationManager.locationAuthStatus { (true) in
+            // Load weather data only when coordinates where acquired
+            loadWeatherData()
+        }
+    }
+    
+    func loadWeatherData() {
         currentWeather.downloadWeatherDetails {
             // Will be called when data finished downloading
             self.updateCuurentWeatherUI()
